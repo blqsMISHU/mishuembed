@@ -6,7 +6,7 @@ type Props = {
   badgeBackgroundColor?: string;
 };
 
-const defaultTextColor = '#303235';
+const defaultTextColor = '#29A2BA';
 
 export const Badge = (props: Props) => {
   let liteBadge: HTMLAnchorElement | undefined;
@@ -53,14 +53,14 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'https://mishu.my'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
+        <span> MISHU</span>
       </a>
     </span>
   );
