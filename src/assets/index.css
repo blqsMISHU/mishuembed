@@ -163,6 +163,7 @@ textarea {
 .chatbot-container {
   background-image: var(--chatbot-container-bg-image);
   background-color: var(--chatbot-container-bg-color);
+  position: relative;
   font-family:
     'Open Sans',
     -apple-system,
