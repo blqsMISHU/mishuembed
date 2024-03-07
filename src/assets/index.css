@@ -164,6 +164,7 @@ textarea {
   background-image: var(--chatbot-container-bg-image);
   background-color: var(--chatbot-container-bg-color);
   position: relative;
+  z-index: 1;
   font-family:
     'Open Sans',
     -apple-system,
@@ -187,6 +188,8 @@ textarea {
 
 .chatbot-button {
   color: var(--chatbot-button-color);
+  position:relative;
+  z-index: 2;
   background-color: #0042da;
   border: 1px solid #0042da;
   border-radius: var(--chatbot-border-radius);
